@@ -100,4 +100,66 @@ section.hero-landing .hero-landing-text a.cta-link:hover {
   color: #65AFFF;
   padding: 15px 30px;
 }
+
+@media screen and (max-width: 480px) {
+  #circle {
+    display: none;
+  }
+  section.hero-landing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #1B2845;
+  }
+  section.hero-landing .hero-landing-text {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  section.hero-landing .hero-landing-text h1 {
+    font-size: 60px;
+  }
+  section.hero-landing .hero-landing-text p {
+    font-size: 22px;
+    color: #fafafa;
+    margin: 10px 0px 25px;
+  }
+  section.hero-landing .hero-landing-text a.cta-link {
+    display: block;
+    padding: 15px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 1px solid #fff;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  section.hero-landing .hero-landing-text a.cta-link:hover {
+    background: #fff;
+    color: #65AFFF;
+    padding: 15px 30px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
