@@ -1,0 +1,103 @@
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  background: #335C81;
+  position: absolute;
+  margin-left: -250px;
+  z-index: 2;
+}
+
+.sidebar nav.sidebar-links {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 45px;
+}
+
+.sidebar nav.sidebar-links ul.nav-links li {
+  margin-bottom: 15px;
+}
+
+.sidebar nav.sidebar-links ul.nav-links li a {
+  color: #fafafa;
+  font-size: 20px;
+}
+
+#circle {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: #65AFFF;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  pointer-events: none;
+  -webkit-transition: background .2s ease-in, width .2s ease-in-out, height .2s ease-in-out;
+  transition: background .2s ease-in, width .2s ease-in-out, height .2s ease-in-out;
+}
+
+section.hero-landing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #1B2845;
+}
+
+section.hero-landing .hero-landing-text {
+  margin-left: 100px;
+}
+
+section.hero-landing .hero-landing-text h1 {
+  font-size: 72px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+section.hero-landing .hero-landing-text p {
+  font-size: 22px;
+  color: #fafafa;
+  margin: 10px 0px 25px;
+}
+
+section.hero-landing .hero-landing-text a.cta-link {
+  display: block;
+  padding: 15px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border: 1px solid #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+section.hero-landing .hero-landing-text a.cta-link:hover {
+  background: #fff;
+  color: #65AFFF;
+  padding: 15px 30px;
+}
+/*# sourceMappingURL=index.css.map */

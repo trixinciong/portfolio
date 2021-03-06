@@ -1,0 +1,91 @@
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  background: #335C81;
+  position: absolute;
+  margin-left: -250px;
+  z-index: 2;
+}
+
+.sidebar nav.sidebar-links {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 45px;
+}
+
+.sidebar nav.sidebar-links ul.nav-links li {
+  margin-bottom: 15px;
+}
+
+.sidebar nav.sidebar-links ul.nav-links li a {
+  color: #fafafa;
+  font-size: 20px;
+}
+
+section.project-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.project-intro h1 {
+  font-size: 72px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+section.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+section.project .project-row {
+  width: 100%;
+  height: 85vh;
+  margin-bottom: 25px;
+}
+
+section.project .project-row img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=project.css.map */
